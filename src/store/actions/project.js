@@ -1,15 +1,17 @@
-import * as actionTypes from './actionTypes';
+//example actions
 
-export const updateTree = (treeData) => {
-    return {
-        type: actionTypes.UPDATE_TREE,
-        treeData: treeData
-    };
-};
+// import * as actionTypes from './actionTypes';
 
-export const changeEditNode = (editNode) => {
-    return {
-        type: actionTypes.CHANGE_EDIT_NODE,
-        editNode: editNode
-    };
-};
+// export const updateTree = (treeData) => {
+//     return {
+//         type: actionTypes.UPDATE_TREE,
+//         treeData: treeData
+//     };
+// };
+
+// export const changeEditNode = (editNode) => {
+//     return {
+//         type: actionTypes.CHANGE_EDIT_NODE,
+//         editNode: editNode
+//     };
+// };

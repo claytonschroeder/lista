@@ -1,10 +1,6 @@
-export {
-    add,
-    subtract,
-    increment,
-    decrement
-} from './counter';
-export {
-    updateTree,
-    changeEditNode
-} from './project';
+// example export of actions 
+
+// export {
+//     updateTree,
+//     changeEditNode
+// } from './project';
