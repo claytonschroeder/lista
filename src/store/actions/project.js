@@ -1,13 +1,13 @@
 //example actions
 
-// import * as actionTypes from './actionTypes';
+import * as actionTypes from './actionTypes';
 
-// export const updateTree = (treeData) => {
-//     return {
-//         type: actionTypes.UPDATE_TREE,
-//         treeData: treeData
-//     };
-// };
+export const updateTree = (treeData) => {
+    return {
+        type: actionTypes.UPDATE_TREE,
+        treeData
+    };
+};
 
 // export const changeEditNode = (editNode) => {
 //     return {

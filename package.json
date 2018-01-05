@@ -38,6 +38,8 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-sortable-tree": "1.5.0",
+    "react-sortable-tree-theme-file-explorer": "^1.1.2",
+    "react-sortable-tree-theme-full-node-drag": "^1.1.0",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "style-loader": "0.18.2",

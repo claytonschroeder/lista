@@ -5,6 +5,13 @@ export const updateObject = (oldObject, updatedValues) => {
     }
 };
 
+export const mergeArray = (oldArray, newArray) => {
+    return [
+        ...oldArray,
+        ...newArray
+    ]
+}
+
 export const findNode = (object, id) => {
     var result = null;
     if(object instanceof Array) {

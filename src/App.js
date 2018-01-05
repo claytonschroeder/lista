@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
+import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
 
-import classes from './App.css';
+
+import Project from './containers/Project/Project';
+import Home from './containers/Home/Home';
 
 class App extends Component {
-  state = {
-  };
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-  
-  
   render() {
     return (
-      <div className={ classes.App }>
-        Master
-      </div>
+      <Switch>
+        <Route path="/project" component={Project}/>
+        <Route path="/" component={Home}/>
+      </Switch>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

@@ -1,0 +1,12 @@
+.Header {
+    height: 70px;
+    background: #c8c8c8;
+}
+
+.HeaderContent, .Visual, .Form {
+    background: aliceblue;
+}
+
+.Content {
+    background: #c8c8c8;
+}
