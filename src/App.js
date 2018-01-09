@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
+import { Route, Switch, withRouter } from 'react-router-dom';
 
 
 import Project from './containers/Project/Project';
 import Home from './containers/Home/Home';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+
+  state = {};
+
 
   render() {
     return (

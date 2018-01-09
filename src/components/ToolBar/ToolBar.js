@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import { CommandBar } from 'office-ui-fabric-react/lib/CommandBar';
 

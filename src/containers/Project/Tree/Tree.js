@@ -8,11 +8,7 @@ import { IconButton } from 'office-ui-fabric-react/lib/Button';
 import { TooltipHost } from 'office-ui-fabric-react/lib/Tooltip';
 import { TextField } from 'office-ui-fabric-react/lib/TextField';
 
-
 class Tree extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
     

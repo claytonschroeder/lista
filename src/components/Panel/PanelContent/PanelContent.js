@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Help from './Help/Help';
 import History from './History/History';
@@ -9,19 +9,21 @@ const panelContent = (props) => {
     let content;
     switch(props.type){
         case 'Chat':
-            return (<Chat />)
-        break;
+            content = (<Chat />)
+            break;
         case 'History':
-            return (<History />)
-        break;
+            content = (<History />)
+            break;
         case 'Help':
-            return (<Help />)
-        break;
+            content = (<Help />)
+            break;
         case 'Manage':
-            return (<Manage />)
-        break;
-        default: return (<span>Content Goes here</span>)
+            content = (<Manage />)
+            break;
+        default:
+            content = (<span>Content Goes here</span>)
     }
+    return content;
 }
 
 export default panelContent;
